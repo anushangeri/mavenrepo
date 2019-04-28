@@ -1,8 +1,7 @@
 
-<%@page import="to.TimeInTimeOut"%>
+
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.sql.Timestamp"%>
-<%@page import="to.TodHodDetails"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@include file="loginCSS.jsp"%>
 <%@page import="java.util.*"%>
