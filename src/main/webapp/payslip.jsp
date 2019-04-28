@@ -8,12 +8,6 @@
 <%@page import="java.io.IOException"%>
 <%@page import="java.net.URL"%>
 
-<%@page import="com.google.gdata.client.spreadsheet.SpreadsheetService"%>
-<%@page import="com.google.gdata.data.spreadsheet.CustomElementCollection"%>
-<%@page import="com.google.gdata.data.spreadsheet.ListEntry"%>
-<%@page import="com.google.gdata.data.spreadsheet.ListFeed"%>
-<%@page import="com.google.gdata.util.ServiceException"%>
-
 <!DOCTYPE html>
 <html>
     <head>

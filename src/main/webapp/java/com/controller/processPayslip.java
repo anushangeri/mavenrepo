@@ -1,4 +1,4 @@
-package java.controller;
+package com.controller;
 
 import com.google.gdata.client.spreadsheet.SpreadsheetService;
 import com.google.gdata.data.spreadsheet.CustomElementCollection;
