@@ -13,7 +13,7 @@ public class SimpleServlet extends HttpServlet {
 	private static final long serialVersionUID = -4751096228274971485L;
 
 	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String yourName = request.getParameter("nricfin");
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello " + yourName + "</h1>");

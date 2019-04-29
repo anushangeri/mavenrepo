@@ -44,7 +44,7 @@
         </div>
 	<div id='body' align='center'>
                 <div id="generatepayslip">
-                    <form action="hello" method="doPost">
+                    <form action="hello" method="doGet">
                         <br/>
                         <input type="text" name="nricfin" class="form-control" placeholder="Enter NRIC/FIN (e.g. S1234567D)" required autofocus>
                         <br/>
