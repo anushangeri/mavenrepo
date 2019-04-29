@@ -53,7 +53,7 @@
             int numberDaysWorked = Integer.parseInt(responseObj.get("numberDaysWorked").toString());
             int numberPHWorked = Integer.parseInt(responseObj.get("numberPHWorked").toString());
             int numberULWorked = Integer.parseInt(responseObj.get("numberULWorked").toString());
-            ArrayList<TimeInTimeOut> timeInTimeOutPayslipDisplay = (ArrayList<TimeInTimeOut>) responseObj.get("timeInTimeOutPayslipDisplay");
+            Object timeInTimeOutPayslipDisplay = responseObj.get("timeInTimeOutPayslipDisplay");
 //            
             double basicsalarymonth = Double.parseDouble(responseObj.get("basicsalarymonth").toString());
             double basicsalaryday = Double.parseDouble(responseObj.get("basicsalaryday").toString());
