@@ -1,7 +1,6 @@
 
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.sql.Timestamp"%>
-<%@page import="to.TodHodDetails"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@include file="loginCSS.jsp"%>
 <%@page import="java.util.*"%>
@@ -13,7 +12,8 @@
 <%@page import="com.google.gdata.data.spreadsheet.ListEntry"%>
 <%@page import="com.google.gdata.data.spreadsheet.ListFeed"%>
 <%@page import="com.google.gdata.util.ServiceException"%>
-
+<%@include file="java/com/to/TimeInTimeOut.java"%>
+<%@include file="java/com/to/TodHodDetails.java"%>
 <!DOCTYPE html>
 <html>
     <head>

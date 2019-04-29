@@ -28,7 +28,7 @@
             <br>
             <div id='body' align='center'>
                 <div id="generatepayslip">
-                    <form action="processPayslip.do" method="post">
+                    <form action="/ProcessPayslipServlet" method="get">
                         <br/>
                         <input type="text" name="nricfin" class="form-control" placeholder="Enter NRIC/FIN (e.g. S1234567D)" required autofocus>
                         <br/>

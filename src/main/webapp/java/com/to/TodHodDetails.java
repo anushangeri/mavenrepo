@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.to;
+package src.main.webapp.java.com.to;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;

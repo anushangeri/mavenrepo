@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ProcessPayslipServlet</servlet-name>
+  	<display-name>ProcessPayslipServlet</display-name>
+  	<description></description>
+  	<servlet-class>src.main.webapp.java.com.servlet.ProcessPayslipServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ProcessPayslipServlet</servlet-name>
+  	<url-pattern>/ProcessPayslipServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
