@@ -61,15 +61,10 @@
                 </div>
                 <%
 		        String responseObj = (String) request.getAttribute("responseObj");
-		        if (responseObj == null) {
+		        if (responseObj != null) {
 		            %>
-		            <label class="heading">ERROR IN GENERATING PAYSLIP</label>
+		            <label class="heading"><%=responseObj%></label>
 		            <%
-		        }
-		        else{
-		        	%>
-		        	<td colspan="4"><b><%=responseObj%></td>
-		        	<%
 		        }
             	%>
             </div>    
