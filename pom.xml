@@ -47,7 +47,6 @@
   </dependencies>
   <build>
     <finalName>webappRunnerSample</finalName>
-    <sourceDirectory>src/main/webapp/java</sourceDirectory>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
