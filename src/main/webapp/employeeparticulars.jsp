@@ -4,8 +4,8 @@
 <%@page import="java.util.*"%>
 <%@page import="java.io.IOException"%>
 <%@page import="java.net.URL"%>
-<%@include file="java/com/to/TimeInTimeOut.java"%>
-<%@include file="java/com/to/TodHodDetails.java"%>
+<%@include file="../java/com/to/TimeInTimeOut.java"%>
+<%@include file="../java/com/to/TodHodDetails.java"%>
 <%@page import="com.google.gdata.client.spreadsheet.SpreadsheetService"%>
 <%@page import="com.google.gdata.data.spreadsheet.CustomElementCollection"%>
 <%@page import="com.google.gdata.data.spreadsheet.ListEntry"%>

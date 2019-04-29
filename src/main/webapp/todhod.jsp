@@ -12,8 +12,8 @@
 <%@page import="com.google.gdata.data.spreadsheet.ListEntry"%>
 <%@page import="com.google.gdata.data.spreadsheet.ListFeed"%>
 <%@page import="com.google.gdata.util.ServiceException"%>
-<%@include file="java/com/to/TimeInTimeOut.java"%>
-<%@include file="java/com/to/TodHodDetails.java"%>
+<%@include file="../java/com/to/TimeInTimeOut.java"%>
+<%@include file="../java/com/to/TodHodDetails.java"%>
 <!DOCTYPE html>
 <html>
     <head>
