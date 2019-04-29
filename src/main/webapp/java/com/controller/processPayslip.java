@@ -31,7 +31,7 @@ import javax.servlet.http.HttpSession;
 import to.TimeInTimeOut;
 import to.TodHodDetails;
 
-@WebServlet(name = "processPayslip", urlPatterns = {"/processPayslip.do"})
+
 public class processPayslip extends HttpServlet {
 
     /**

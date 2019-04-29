@@ -6,7 +6,7 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
   	<servlet-name>ProcessPayslipServlet</servlet-name>
-  	<servlet-class>src.main.webapp.java.com.servlet.ProcessPayslipServlet</servlet-class>
+  	<servlet-class>webapp.java.com.servlet.ProcessPayslipServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>ProcessPayslipServlet</servlet-name>

@@ -20,7 +20,7 @@
             <a href="employeeparticulars.jsp">
                 <div class="eachCard crop">
                     <img class="center-block" src="employeeparticulars.png" alt="employeeparticulars.jpg">
-                    <h4 class="fontheader"><b>EMPLOYEE PARTICULARS</b></h4> 
+                    <h4 class="fontheader"><b>EMPLOYEE PARTICULARS worksS</b></h4> 
                 </div>
             </a>
         </div>

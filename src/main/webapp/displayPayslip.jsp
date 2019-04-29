@@ -273,26 +273,26 @@
                 </tr>
             </thead>
             <tbody>
-                <%
-                    for(TimeInTimeOut eachTITO: timeInTimeOutPayslipDisplay){
-                        String timeInDateAsStr = eachTITO.getTimeInDateAsStr();
-                        String timeInTimeAsStr = eachTITO.getTimeInTimeAsStr();
-                        String timeOutDateAsStr = eachTITO.getTimeOutDateAsStr();
-                        String timeOutTimeAsStr = eachTITO.getTimeOutTimeAsStr();
-                        String dutySite = eachTITO.getDutySite(); 
-                        %>
-                        <tr>
-                            <td><center><%=timeInDateAsStr%></center></td>
-                            <td><center><%=timeInTimeAsStr%></center></td>
-                            <td><center><%=((timeOutDateAsStr == null) ? "N/A" : timeOutDateAsStr)%></center></td>
-                            <td><center><%=((timeOutTimeAsStr == null) ? "N/A" : timeOutTimeAsStr)%></center></td>
-                            <td><center><%=breakHr%></center></td>
-                            <td><center><%=dutySite%></center></td>
-                        </tr>
-                        <%
-                    }
+<%--                 <% --%>
+//                     for(TimeInTimeOut eachTITO: timeInTimeOutPayslipDisplay){
+//                         String timeInDateAsStr = eachTITO.getTimeInDateAsStr();
+//                         String timeInTimeAsStr = eachTITO.getTimeInTimeAsStr();
+//                         String timeOutDateAsStr = eachTITO.getTimeOutDateAsStr();
+//                         String timeOutTimeAsStr = eachTITO.getTimeOutTimeAsStr();
+//                         String dutySite = eachTITO.getDutySite(); 
+<%--                         %> --%>
+<!--                         <tr> -->
+<%--                             <td><center><%=timeInDateAsStr%></center></td> --%>
+<%--                             <td><center><%=timeInTimeAsStr%></center></td> --%>
+<%--                             <td><center><%=((timeOutDateAsStr == null) ? "N/A" : timeOutDateAsStr)%></center></td> --%>
+<%--                             <td><center><%=((timeOutTimeAsStr == null) ? "N/A" : timeOutTimeAsStr)%></center></td> --%>
+<%--                             <td><center><%=breakHr%></center></td> --%>
+<%--                             <td><center><%=dutySite%></center></td> --%>
+<!--                         </tr> -->
+<%--                         <% --%>
+//                     }
                 
-                %>
+<%--                 %> --%>
             </tbody>
         </table>
         </div>
