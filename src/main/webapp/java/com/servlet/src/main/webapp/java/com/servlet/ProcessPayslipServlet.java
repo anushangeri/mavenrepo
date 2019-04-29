@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ProcessPayslipServlet
  */
-@WebServlet("/ProcessPayslipServlet")
+@WebServlet(name="ProcessPayslipServlet",urlPatterns="/ProcessPayslipServlet") 
 public class ProcessPayslipServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
