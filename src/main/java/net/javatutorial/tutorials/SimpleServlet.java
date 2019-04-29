@@ -1,6 +1,7 @@
 package net.javatutorial.tutorials;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -12,8 +13,11 @@ public class SimpleServlet extends HttpServlet {
 	private static final long serialVersionUID = -4751096228274971485L;
 
 	@Override
-	protected void doGet(HttpServletRequest reqest, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("Hello World!");
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String yourName = request.getParameter("nricfin");
+		PrintWriter writer = response.getWriter();
+		writer.println("<h1>Hello " + yourName + "</h1>");
+		writer.close();;
 	}
 	
 	@Override
