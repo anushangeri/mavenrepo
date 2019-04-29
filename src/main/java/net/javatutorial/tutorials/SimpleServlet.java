@@ -3,6 +3,7 @@ package net.javatutorial.tutorials;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,7 +18,11 @@ public class SimpleServlet extends HttpServlet {
 		String yourName = request.getParameter("nricfin");
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello " + yourName + "</h1>");
-		writer.close();;
+		writer.close();
+		String responseObj = "Hello " + yourName;
+		request.setAttribute("responseObj", responseObj);
+        RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+        rd.forward(request, response);
 	}
 	
 	@Override

@@ -59,6 +59,19 @@
 
                     </form>
                 </div>
+                <%
+		        String responseObj = (String) request.getAttribute("responseObj");
+		        if (responseObj == null) {
+		            %>
+		            <label class="heading">ERROR IN GENERATING PAYSLIP</label>
+		            <%
+		        }
+		        else{
+		        	%>
+		        	<td colspan="4"><b><%=responseObj%></td>
+		        	<%
+		        }
+            	%>
             </div>    
     </body>
 </html>
